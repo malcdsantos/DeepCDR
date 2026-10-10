@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.pyc
+
+# Trained models and experiment checkpoints
+checkpoint/experiments/
+
+# Generated drug graph features
+data/GDSC/drug_graph_feat
+data/GDSC/drug_graph_feat_incomplete/
+
+# SLURM job output
+overnight-*.out
+overnight-*.err
+logs/
+
+# Temporary files
+.DS_Store
